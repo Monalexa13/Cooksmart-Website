@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lebensmittel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <a href="welcome.html"><img src="images/homebutton.png" width="30px"></a>
+        <h1 class="site-title">Lebensmittel</h1>
+    </div>
+
+    <div class="list">
+        <h2 class="grocery-info">Lebensmittel hinzufügen</h2>
+        <form id="groceryForm" class="grocery-list">
+            <input type="text" id="foodName" placeholder="Name">
+            <input type="date" id="purchaseDate">
+            <input type="date" id="expiryDate">
+            <button id="addFoodBtn">Hinzufügen</button>
+        </form>
+    </div>
+
+    
+    <div class="list">
+        <h2 class="grocery-info">Gespeicherte Lebensmittel</h2>
+        <ul id="foodList" class="grocery-list"></ul>
+    </div>
+
+    <div class="list">
+        <h2 class="grocery-info">Mögliche Rezepte</h2>
+        <ul id="recipeList" class="recipe-lists"></ul>
+    </div>
+
+    <script src="groceries.js"></script>
+    <script src="recipes.js"></script>
+</body>
+</html>

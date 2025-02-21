@@ -1,0 +1,107 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px;
+    background-color: #eaf0f4;
+}
+
+h1.site-title {
+    text-align: center;
+    padding: 10px;
+}
+
+.header img {
+    float: left;
+}
+
+
+h2.recipe-title {
+    text-align: center;
+}
+
+h2.grocery-info {
+    text-align: center;
+}
+
+form.grocery-list {
+    text-align: center;
+}
+
+div.list {
+    background: #fff;
+    margin: 10px auto;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 800px;
+}
+
+div.wrapper {
+    background: #fff;
+    margin: 10px auto;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 800px;
+    text-align: center;
+}
+
+ul.grocery-list li {
+    text-align: center;
+    list-style: none;
+}
+
+ul.recipe-lists li {
+    text-align: center;
+    list-style: none;
+}
+
+ul.recipe-list {
+    background: #fff;
+    margin: 10px auto;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 800px;
+}
+
+
+ul.recipe-info {
+    list-style: none;
+    text-align: center;
+}
+
+ul.recipe-info li{
+    padding-right: 30px;
+    display: inline-block;
+}
+
+ul.recipe-instructions {
+    list-style: none;
+}
+
+ul.recipe-instructions li {
+    padding-bottom: 2px;
+}
+
+input, button {
+    margin: 5px;
+    padding: 8px;
+}
+button {
+    cursor: pointer;
+}
